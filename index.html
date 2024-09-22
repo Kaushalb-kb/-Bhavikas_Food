@@ -5,110 +5,209 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="logo1.png">
-    <title>Bhavika's food</title>
-    <link rel="stylesheet" href="style_slider.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Bhavika's Food</title>
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: sans-serif;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background-color: #f8f8f8;
+        }
+
+        .image1 {
+            width: 50px;
+            height: 50px;
+        }
+
+        .wid-cs2 h1 {
+            font-size: 24px;
+            margin-left: 20px;
+        }
+
+        .flex3 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0px;
+            background-color: #f8f8f8;
+        }
+
+        .hover {
+            margin: 5px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            background-color: rgb(238, 163, 163);
+            font-size: 14px;
+            font-weight: 700;
+            text-align: center;
+            transition: background-color 0.3s;
+            width: calc(33.33% - 20px); /* 3 buttons per row on larger screens */
+        }
+
+        .hover:hover {
+            background-color: lightblue;
+        }
+
+        /* Media query for smaller devices */
+        @media (max-width: 768px) {
+            .hover {
+                width: calc(50% - 20px); /* 2 buttons per row on tablets */
+            }
+
+            .wid-cs2 h1 {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hover {
+                width: calc(100% - 20px); /* 1 button per row on mobile */
+            }
+
+            .image1 {
+                width: 40px;
+                height: 40px;
+            }
+
+            .wid-cs2 h1 {
+                font-size: 16px;
+            }
+        }
+
+        hr {
+            margin: 10px 0;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        .container-photo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .flex-photo {
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            width: 250px;
+            font-weight: 700;
+        }
+
+        .flex-photo img {
+            width: 100%;
+            height: auto;
+        }
+
+        .flex-photo:hover {
+            transform: scale(1.05);
+            transition: transform 0.5s;
+        }
+
+        .slider-flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .image_container-slider {
+            margin: 10px;
+            width: 100%;
+            max-width: 490px;
+            margin-top: 0px;
+            margin-right: 10px;
+            margin-left: 10px;
+            
+        }
+
+        .image_container-slider img {
+            width: 100%;
+            
+        }
+
+        @media (max-width: 768px) {
+            .image_container-slider {
+                max-width: 100%;
+            }
+        }
+        hr{
+            margin: 0px;
+        }
+    </style>
 </head>
 
 <body>
     <div class="header">
-        <div class="wid-cs1"><img class="image1" src="logo.jpg" alt="Bhavika's food">
+        <div class="wid-cs1">
+            <img class="image1" src="logo.jpg" alt="Bhavika's Food">
         </div>
         <div class="wid-cs2">
             <h1>Bhavika's Food</h1>
         </div>
+    </div>
+
+    <hr>
+
+    <div class="flex3">
         
-    </div>    
-    <div>
-        <hr>
-        <div class="flex3">
-            <div class="hover">
-                Cakes
-            </div>
-            <div class="hover">
-                Theme Cakes
-            </div>
-            <div class="hover">
-                By Relationship
-            </div>
-            <div class="hover">
-                Desserts
-            </div>
-            <div class="hover">
-                By Flavours
-            </div>
-            <div class="hover">
-                Birthday
-            </div>
-            <div class="hover">
-                Anniversary
-            </div>
-            <div class="hover">
-                Occasion
-            </div>
-            <div class="hover" id="hover9">
-                Customized Cakes
-            </div>
+        <div class="hover" id="themecake">Theme Cakes</div>
+        
+       
+        <div class="hover" id="birthday">Birthday</div>
+        <div class="hover">Anniversary</div>
+        
+        
+    </div>
+
+    <h1>Surprise Your Loved One</h1>
+
+    <div class="container-photo">
+        <div class="flex-photo">
+            <img src="cake1.jpeg" alt="Anniversary Cakes">
+            <p>Anniversary Cakes</p>
         </div>
-        <div>
-            <hr>
+        <div class="flex-photo">
+            <img src="cake2.jpeg" alt="Rasmalai Cake">
+            <p>Rasmalai Cake</p>
+        </div>
+        <div class="flex-photo">
+            <img src="cake3.jpeg" alt="Doll Cakes">
+            <p>Doll Cakes</p>
+        </div>
+        <div class="flex-photo">
+            <img src="Cake4.jpeg" alt="Black Forest Cakes">
+            <p>Black Forest Cakes</p>
         </div>
     </div>
-    
-    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Surprise Your Loved One</h1>
-    <br>
-    <DIv class="container-photo">
-        <div>
-            <div class="flex-photo flex-photo-transition" id="imag1-photo">
-                <img src="cake1.jpeg" alt="Cake" width="250px" height="250px">
-            </div>
-            <div class="flex-photo" id="div2-photo">
-                Anniversary Cakes
-            </div>
-        </div>
-
-        <div>
-            <div class="flex-photo flex-photo-transition" id="imag1-photo">
-                <img src="cake2.jpeg" alt="Cake" width="250px" height="250px">
-            </div>
-            <div class="flex-photo" id="div2-photo">
-                Rasmalai Cake
-            </div>
-        </div>
-
-        <div>
-            <div class="flex-photo flex-photo-transition" id="imag1-photo">
-                <img src="cake3.jpeg" alt="Cake" width="250px" height="250px">
-            </div>
-            <div class="flex-photo" id="div2-photo">
-                Doll Cakes
-            </div>
-        </div>
-
-        <div>
-            <div class="flex-photo flex-photo-transition" id="imag1-photo">
-                <img src="Cake4.jpeg" alt="Cake" width="250px" height="250px">
-            </div>
-            <div class="flex-photo" id="div2-photo">
-                Black forest Cakes
-            </div>
-        </div>
-    </DIv>
-<br>
-    <h1 class="title-slider">Our Best Sellers </h1>    
+<hr>
+    <h1 class="title-slider">Theme Cakes</h1>
 
     <div class="slider-flex">
         <div class="image_container-slider">
-            <img src="a.jpeg" alt="Images-slider" class="image-slider" id="image-slider" width="390px" height="450px">
+            <img src="Theme_Cake_1.jpeg" alt="Images-slider 1" height="460px">
         </div>
-
         <div class="image_container-slider">
-            <img src="e.jpeg" alt="Images-slider" class="image-slider" id="image-slider1" width="390px" height="450px">
+            <img src="Theme_Cake_2.jpeg" alt="Images-slider 2" height="460px">
         </div>
-
-        <div class="image_container-slider">
-            <img src="j.jpeg" alt="Images-slider" class="image-slider" id="image-slider2" width="390px" height="450px">
-        </div>
+        
     </div>
 </body>
+
 </html>
