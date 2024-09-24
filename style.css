@@ -7,8 +7,7 @@
             padding: 0;
         }
         a{
-            text-decoration: none;  
-            color: white;
+            text-decoration: none;              
         }
         body {
             font-family: sans-serif;
@@ -38,6 +37,7 @@
             justify-content: center;
             padding: 0px;
             background-color: #f8f8f8;
+            color: white;
         }
 
         .hover {
