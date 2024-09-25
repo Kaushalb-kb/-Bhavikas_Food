@@ -3,7 +3,7 @@
 const images = [
         
            
-        '70-chocolate.png',
+        '1.png',
         'Aniversary-bg.png',
         '3-bg.png',
         'e-removebg-preview.png',
