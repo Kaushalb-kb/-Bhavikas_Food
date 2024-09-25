@@ -3,8 +3,22 @@
 const images = [
         
            
-        '83-Dutch_cake.png',    
         '70-chocolate.png',
+        'Aniversary-bg.png',
+        '3-bg.png',
+        'e-removebg-preview.png',
+        'Grade-bg.png',
+        'Hiral-bg.png',
+        'jeni-bg.png',
+        'mirror glaze-bg.png',
+        'Mitarth_bg.png',
+        'papa-bg.png',
+        'Pari-bg.png',
+        'Rushvi-bg.png',
+        'Unicorn-bg.png',
+        'vanila-bg.png',
+        '7-bg',
+        'Yadav-bg',
         '15-loaded_cake.png'
         
     ];
