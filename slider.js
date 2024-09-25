@@ -4,22 +4,22 @@ const images = [
         
            
         '1.png',
-        'Aniversary-bg.png',
-        '3-bg.png',
-        'e-removebg-preview.png',
-        'Grade-bg.png',
-        'Hiral-bg.png',
-        'jeni-bg.png',
-        'mirror glaze-bg.png',
-        'Mitarth_bg.png',
-        'papa-bg.png',
-        'Pari-bg.png',
-        'Rushvi-bg.png',
-        'Unicorn-bg.png',
-        'vanila-bg.png',
-        '7-bg',
-        'Yadav-bg',
-        '15-loaded_cake.png'
+        '2.png',
+        '3.png',
+        '4.png',
+        '5.png',
+        '6.png',
+        '7.png',
+        '8.png',
+        '9.png',
+        '10.png',
+        '11.png',
+        '12.png',
+        '13.png',
+        '14.png',
+        '15.png',
+        '16.png',
+        '17.png'
         
     ];
     const firstImage = 0;
