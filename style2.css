@@ -1,0 +1,42 @@
+
+        .footer2{
+            
+            justify-content: space-between;
+            text-align: center;
+            background-color: black;
+            color: white;
+            height: 100px;
+            margin: 0px;   
+            align-content: center;       
+        }
+
+        #google_translate_element select {
+            height: 30px;
+            background-color: #412225;
+            border: 1px solid #560408;
+            width: 150px;
+            color: #fff;
+            padding-left: 10px;
+        }
+
+        .goog-logo-link,
+        .VIpgJd-ZVi9od-l4eHX-hSRGPd {
+            display: none !important;
+        }
+
+        .goog-te-gadget {
+            color: transparent !important;
+        }
+
+        body>.skiptranslate {
+            display: none;
+        }
+
+        .goog-te-banner-frame.skiptranslate {
+            display: none !important;
+        }
+
+        body {
+            top: 0px !important;
+        }
+    
